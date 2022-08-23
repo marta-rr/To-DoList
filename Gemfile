@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1'
+gem 'rails_admin', '~> 2.0'
 
 # AWS S3
 gem 'aws-sdk-s3', '~> 1.112'
@@ -44,6 +45,7 @@ gem 'bootsnap', '>= 1.10.3', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'rspec-rails', '~> 4.0'
   gem 'byebug', '~> 11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 
   # Added by Altcademy.com
